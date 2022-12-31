@@ -1,0 +1,484 @@
+
+*{
+
+}
+
+
+nav{
+
+    z-index: 3 !important;
+
+}
+
+.dropdown-menu{
+
+    z-index: 5 !important;
+   overflow-x: visible !important;
+
+   background-color: rgb(58, 58, 58);
+   color:white;
+    padding:20px 10px 20px 10px;
+    line-height: 40px;
+
+
+}
+
+.dropdown-menu a{
+color:white;
+font-family:sans-serif
+
+}
+.nav-link{
+
+
+
+    color:white;
+
+    font-size:20px;
+
+}
+
+.navbar-nav{
+
+    font-family:"Marcellus";
+
+    display:flex;
+    justify-content: space-between;
+    margin-right: 20px;;
+    width:800px;
+
+}
+
+.navbar{
+   background-color: rgba(0, 0, 0, 0) !important;
+position: absolute;
+ z-index: 2;
+ width:100%;
+
+}
+
+
+
+
+
+.navnav{
+    overflow-x: hidden;
+
+    position: absolute;
+    background-size: cover;
+    height:100%;
+    width:100%;
+   background-image: url("../img/coffee.jpg");
+      z-index: 0;
+   background-repeat: no-repeat;
+   background-position: center;
+   animation: zoom-in-zoom-out 4s ease infinite;
+   overflow: hidden !important;
+}
+
+.items{
+    position: relative;
+      min-height:900px;
+cursor: pointer;
+
+  height:100%;
+}
+
+
+.items i{
+    z-index: 3;
+    position:absolute; font-size:40px; color :white;
+    top:450px;
+
+    float:right;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.01, 1.01);
+    }
+    100% {
+      transform: scale(1.02, 1.02);
+    }
+  }
+
+  .navnav2{
+ line-height: 40px;
+ height:800px;
+     display:flex;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+   flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  text-align: center;
+   overflow: hidden;
+}
+
+
+.navnav2 div p{
+ display:none;
+  color:white;
+  width:80%;
+}
+
+
+.navnav2 h1{
+
+    font-size:68px;
+
+    color:white;
+
+    font-family: "Marcellus"
+}
+
+
+.related{
+
+
+    border-radius: 0px !important;
+
+    color:white;
+    border-color: white !important;
+
+    padding:10px 20px 10px 20px;
+
+}
+
+
+h1{
+
+    font-family:"Marcellus"
+}
+
+
+p{
+
+ width:80%;
+ opacity: 60%;
+ margin: auto;
+ font-family:"Marcellus"
+
+
+
+}
+
+
+.section2{
+
+    margin-top: 200px;
+
+     height:fit-content;
+
+    background-image: url("../img/landing-bakcground-img-1.jpg");
+}
+
+
+.navnav3{
+
+    background-image: url("../img/img.jpg");
+
+    height:500px;
+
+    background-position: center;
+    display:flex;
+      justify-content: center;
+
+      align-items: center;
+
+ background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+
+.section3{
+
+     background-image:url("../img/h1-bacground-img-1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+
+footer{
+    background-color: rgb(32, 32, 32);
+
+    font-family: "Marcellus";
+    color:white;
+    padding:60px;
+}
+
+
+.footer{
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:1000px) {
+    .mav{
+        display: none;
+      width:200px;
+      text-align: center;
+      margin-right:20px;;
+      border-radius: 10px;
+        background-color: rgb(41, 38, 38);
+    }
+
+
+    .navbar-nav{
+
+       width:100%;
+       display:flex;
+       align-items: center !important;
+
+       text-align: center !important;
+
+    }
+    .navbar{
+        background-color:transparent;
+
+    }
+
+    .navbar-nav{
+
+
+
+
+
+
+        align-items: flex-end;
+     margin-right: 0;
+
+     justify-content: flex-end;
+
+
+    }
+  }
+
+
+  .navnave{
+    background-size: cover;
+    height:100%;
+    width:100%;
+   background-image: url("../img/espresso.jpg");
+
+   background-repeat: no-repeat;
+   background-position: center;
+   animation: zoom-in-zoom-out 4s ease infinite;
+   overflow: hidden !important;
+    position: absolute;
+  }
+
+
+h3{
+
+    font-family:"Marcellus"
+}
+
+
+h4{
+
+    font-family:"Marcellus"
+}
+
+h5{
+
+    font-family:"Marcellus"
+}
+
+
+.navnavr{
+    background-size: cover;
+    height:100%;
+    width:100%;
+
+   background-repeat: no-repeat;
+   background-position: center;
+   animation: zoom-in-zoom-out 4s ease infinite;
+   overflow: hidden !important;
+    position: absolute;
+
+    background-image:url("../img/robusta2.jpg")
+}
+
+
+
+.robusta{
+
+    background-image: url("../img/espresso2.jpg");
+    height:400px;
+  background-size: cover;
+   background-position: center;
+   margin-bottom: 100px;
+}
+
+.robusta2{
+
+    background-image: url("../img/espresso4.jpg");
+    height:400px;
+  background-size: cover;
+   background-position: center;
+   margin-bottom: 100px;
+}
+
+
+.navnav12{
+    background-size: cover;
+    height:400px;
+
+
+   background-repeat: no-repeat;
+   background-position: center;
+   overflow: hidden !important;
+
+
+    background-image:url("../img/shop.jpg")
+}
+
+
+.related2{
+
+ background-color: #be9c79;
+ color:white !important;
+font-family: "Marcellus";
+ border: unset;
+
+ padding:10px 20px 10px 20px;
+}
+
+.related2:hover{
+
+    background-color:black !important
+}
+
+.related3{
+
+    background-color: rgb(214, 214, 214);
+    color:rgb(8, 8, 8) !important;
+   font-family: "Marcellus";
+    border: unset;
+
+    padding:10px 20px 10px 20px;
+   }
+
+   .related3:hover{
+     color:white !important;
+    background-color: #be9c79 !important
+   }
+
+
+@media only screen and (max-width:1300px){
+
+
+
+}
+
+
+
+.navnav13{
+
+    background-size: cover;
+    height:400px;
+
+
+   background-repeat: no-repeat;
+   background-position: center;
+   overflow: hidden !important;
+
+
+    background-image:url("../img/about-us.jpg")
+}
+
+
+
+
+.navnav14{
+
+    background-size: cover;
+    height:400px;
+
+
+   background-repeat: no-repeat;
+   background-position: center;
+   overflow: hidden !important;
+
+
+    background-image:url("../img/about-me.jpg")
+}
+
+
+
+.navnav15{
+
+    background-size: cover;
+    height:400px;
+
+
+   background-repeat: no-repeat;
+   background-position: center;
+   overflow: hidden !important;
+
+
+    background-image:url("../img/team.jpg")
+}
+
+
+
+.navnav16{
+
+    background-size: cover;
+    height:400px;
+
+
+   background-repeat: no-repeat;
+   background-position: center;
+   overflow: hidden !important;
+
+
+    background-image:url("../img/offer.jpg")
+}
+
+
+
+
+.navnav17{
+
+    background-size: cover;
+    height:400px;
+
+
+   background-repeat: no-repeat;
+   background-position: center;
+   overflow: hidden !important;
+
+
+    background-image:url("../img/menu.jpg")
+}
+
+
+
+
+.navnav18{
+
+    background-size: cover;
+    height:400px;
+
+
+   background-repeat: no-repeat;
+   background-position: center;
+   overflow: hidden !important;
+
+
+    background-image:url("../img/contact.jpg")
+}
+
+.contact{
+
+    padding:10px;
+    width:100%;
+    margin-bottom: 20px;;
+}

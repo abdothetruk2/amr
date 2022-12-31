@@ -1,0 +1,26 @@
+body{
+
+ font-family:'Marcellus' !important;
+}
+
+.conts{
+
+display: flex;
+    justify-content: space-between;
+
+    height:600px;
+    background-image: url("../img/landing-bakcground-img-1.jpg");
+
+}
+
+.conts div{
+    margin-right: 40px;;
+
+    margin-left: 40px;;
+    margin-top: 40px;;
+}
+
+.conts2{
+
+margin-top: 20px !important;
+}
